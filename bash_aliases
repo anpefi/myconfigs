@@ -23,3 +23,6 @@ alias qstata='qstat -u \*'
 
 # SSH
 alias clusterXB2='ssh clusterXB2'
+
+# AWESOMENESS
+alias wheather="curl http://wttr.in/Vigo" #Change city as needed
