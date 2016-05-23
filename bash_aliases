@@ -26,3 +26,8 @@ alias clusterXB2='ssh clusterXB2'
 
 # AWESOMENESS
 alias wheather="curl http://wttr.in/Vigo" #Change city as needed
+
+
+
+# FINISTERRAE2 
+alias sint='function _sint(){ srun -I -p thin-interactive --pty "$@" bash; };_sint'
