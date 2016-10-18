@@ -14,6 +14,7 @@ alias mytop="top -u $USER"
 alias space="df -h"
 alias myps="ps -u $USER -o pid,ppid,start_time,etime,cmd -H"
 alias histog='history | grep'
+alias findy='find . -name'
 
 # Common typos
 alias exir='exit'
