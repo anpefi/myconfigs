@@ -46,6 +46,8 @@ if [ -x /usr/bin/dircolors ]; then
     export GREP_OPTIONS='--color=auto'
 fi
 
+# MISC EXPORTS
+export EDITOR=vim
 
 # enable programmable completion features (you don't need to enable
 # this, if it's already enabled in /etc/bash.bashrc and /etc/profile
