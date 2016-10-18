@@ -94,7 +94,7 @@ function __setprompt {
   if [ $SSH2_IP ] || [ $SSH_IP ] ; then
     local SSH_FLAG="@\h"
   fi
-  PS1="$BLUE[\$(date +%H:%M)][\u$SSH_FLAG:\w]\\$ $NO_COLOUR"
+  PS1="$BLUE\u$SSH_FLAG:\W\\$ $NO_COLOUR"
   PS2="$BLUE>$NO_COLOUR "
   PS4='$BLUE+$NO_COLOUR '
 }
