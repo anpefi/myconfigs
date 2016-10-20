@@ -43,7 +43,7 @@ if [ -x /usr/bin/dircolors ]; then
     alias dir='dir --color=auto'
     alias vdir='vdir --color=auto'
 
-    export GREP_OPTIONS='--color=auto'
+    alias grep='grep --color=auto'
 fi
 
 # MISC EXPORTS
