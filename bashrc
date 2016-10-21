@@ -5,6 +5,10 @@
 # If not running interactively, don't do anything
 [ -z "$PS1" ] && return
 
+# set PATH so it includes user's private bin if it exists
+if [ -d "$HOME/bin" ]; then
+	  PATH="$HOME/bin:$PATH"
+fi
 
 #History hacks#####
 # Ignore duplicates, ls without options and builtin commands
