@@ -29,9 +29,13 @@ alias qstata='qstat -u \*'
 alias clusterXB2='ssh clusterXB2'
 alias triploid='ssh triploid'
 
+# Minidlna local
+alias ldnaStart='minidlnad -f /home/$USER/.minidlna/minidlna.conf -P /home/$USER/.minidlna/minidlna.pid'
+alias ldnaStop='xargs kill </home/$USER/.minidlna/minidlna.pid'
+
 # AWESOMENESS
 alias wheather="curl http://wttr.in/Vigo" #Change city as needed
-
+alias moon="curl http://wttr.in/Moon"
 
 
 # FINISTERRAE2 
