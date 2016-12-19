@@ -20,7 +20,8 @@ alias findy='find . -name'
 alias exir='exit'
 
 #SLURM
-alias mysqueue="squeue -o \"%.7i %.16j %.8u %.8t %.10M %.2C %.6D %R %.16E\""
+alias squeue="squeue -o \"%.16i %.16j %.10u %.8t %.10M %.2C %.6D %R %.16E\""
+alias mysqueue="squeue -u $USER"
 
 #SGE
 alias qstata='qstat -u \*'
